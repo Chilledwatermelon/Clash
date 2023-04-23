@@ -150,19 +150,19 @@ proxy-groups:
     <<: *a4
   - name: 🇭🇰 香港节点
     <<: *a4
-    filter: 港|HK|(?i)Hong
+    filter: 香港
   - name: 🇯🇵 日本节点
     <<: *a4
-    filter: 日|东京|JP|(?i)Japan
+    filter: 日本
   - name: 🇨🇳 台湾节点
     <<: *a4
-    filter: 台|湾|TW|(?i)Taiwan
+    filter: 台湾
   - name: 🇺🇲 美国节点
     <<: *a4
-    filter: 美|US|(?i)States|American
+    filter: 美国
   - name: 🇸🇬 狮城节点
     <<: *a4
-    filter: 新|坡|SG|(?i)Singapore
+    filter: 新加坡
 rule-providers:
   Direct:
     <<: *a5
