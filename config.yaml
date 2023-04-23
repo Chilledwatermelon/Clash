@@ -123,7 +123,7 @@ dns:
 proxy-providers:
   Airport:
     type: http
-    # url: "订阅链接"
+    # url: "https://ooicat.uk/link/t119XWhcdhCqzKXK?sub=3&extend=1"
     path: ./Server/Airport.yaml
     interval: 3600
     # filter: 'Hong Kong'
