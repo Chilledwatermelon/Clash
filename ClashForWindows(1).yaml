@@ -106,7 +106,7 @@ i:
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://sub.xeton.dev/sub?target=clash&url=https://ooicat.uk/link/t119XWhcdhCqzKXK?sub=3&extend=1|https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=hu4ldhuidcwu9s5xb1ogexu4z60amsc9&list=true&udp=false
+    url: https://sub.xeton.dev/sub?target=clash&url=https://apiv1.v27qae.com/flydsubal/esmjkbggec4shgmp?clash=1&extend=1|https://qingyun.today/api/v1/client/subscribe?token=0f28e56da4e0401976357cef3cb5f3f8|https://app.maxbyte.net/api/v1/client/subscribe?token=5a721ff05bd70baf85cc32ff4bdedd55&list=true&udp=false
     path: ./proxy_providers/tmp.yaml
 
 
