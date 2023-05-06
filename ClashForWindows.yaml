@@ -106,7 +106,7 @@ i:
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://sub.xeton.dev/sub?target=clash&url=https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=dbed73027e8e37e35eaf368da571f5ee&list=true&udp=false 
+    url: https://sub.xeton.dev/sub?target=clash&url=https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=dbed73027e8e37e35eaf368da571f5ee|https://limbopro.cyou/sub?target=clash&url=https%3A%2F%2Fapiv1.v27qae.com%2Fflydsubal%2Fesmjkbggec4shgmp%3Fsub%3D2%26extend%3D1&list=true&udp=false 
     path: ./proxy_providers/tmp.yaml
 
 
