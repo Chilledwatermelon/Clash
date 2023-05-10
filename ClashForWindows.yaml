@@ -106,7 +106,7 @@ i:
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://sub.xeton.dev/sub?target=clash&url=http://sub.sihaiyun.vip/api/v1/client/subscribe?token=fe4b3edc21a7d67ee0eb3d21881a2ddd|https://dy.91oracle.studio/api/v1/client/subscribe?token=b047f8cb446713a1287085bac5e0ee35&list=true&udp=false 
+    url: https://sub.xeton.dev/sub?target=clash&url=http://sub.sihaiyun.vip/api/v1/client/subscribe?token=1d0de92ef4cb0b4374560b84e781da2c|https://dy.91oracle.studio/api/v1/client/subscribe?token=b047f8cb446713a1287085bac5e0ee35&list=true&udp=false 
     path: ./proxy_providers/tmp.yaml
 
 
