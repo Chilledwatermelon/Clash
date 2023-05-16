@@ -130,6 +130,7 @@ proxy-groups:
   - name: 🤖 OpenAi
     type: select
     proxies:
+      - 🚀 手动切换
       - 🇺🇲 美国节点
   - name: 🌌 谷歌服务
     <<: *a3
