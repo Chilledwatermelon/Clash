@@ -126,10 +126,11 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
   - name: 🎬 国际媒体
-    <<: *a3
+     <<: *a3
   - name: 🤖 OpenAi
     type: select
     proxies:
+      - 🚀 手动切换
       - 🇺🇲 美国节点
   - name: 🌌 谷歌服务
     <<: *a3
