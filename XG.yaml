@@ -32,13 +32,14 @@ proxy-groups:
 - name: 🚀 手动切换
   type: select
   use:
-  - yiyuan
   - ctc2
+  - yiyuan
 - name: ♻️ 自动选择
   type: url-test
   disable-udp: false
   use:
   - yiyuan
+  - ctc2
   url: http://www.gstatic.com/generate_204
   interval: '600'
   tolerance: '600'
@@ -9988,19 +9989,19 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxy-providers:
-  yiyuan:
+  ctc2:
     type: http
-    path: ./proxy_provider/yiyuan.yaml
-    url: https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=9ea82eeab718be6cc9a92e76b7bd46b6
+    path: ./proxy_provider/ctc2.yaml
+    url: https://38.47.221.60:20000/api/v1/client/subscribe?token=fe00fb0c3bbeeb18034c5736ed660d31
     interval: 60
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 60
-  ctc2:
+  yiyuan:
     type: http
-    path: ./proxy_provider/ctc2.yaml
-    url: https://38.47.221.60:20000/api/v1/client/subscribe?token=fe00fb0c3bbeeb18034c5736ed660d31
+    path: ./proxy_provider/yiyuan.yaml
+    url: https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=9ea82eeab718be6cc9a92e76b7bd46b6
     interval: 60
     health-check:
       enable: true
