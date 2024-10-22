@@ -10039,7 +10039,7 @@ proxy-providers:
   鸡汁:
     type: http
     path: ./proxy_provider/鸡汁.yaml
-    url: http://45.151.133.137:3001/3210x3210/api/file/xc
+    url: https://xc.xcxc.lol/wonderful123/api/file/xc
     interval: 60
     health-check:
       enable: true
