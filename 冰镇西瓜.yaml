@@ -10034,7 +10034,7 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
   鸡汁:
     type: http
@@ -10043,7 +10043,7 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
   ACAshan:
     type: http
@@ -10052,7 +10052,7 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
   ACA:
     type: http
@@ -10061,7 +10061,7 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
   Watermelon:
     type: http
@@ -10070,7 +10070,7 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
   花云:
     type: http
@@ -10079,7 +10079,7 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
   自行车:
     type: http
@@ -10088,5 +10088,5 @@ proxy-providers:
     interval: 60
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 60
